@@ -1,0 +1,76 @@
+body {
+    margin: 0;
+    font-family: 'Courier New', Courier, monospace;
+    text-align: center;
+    background-color: #f0f0f0; /* Light gray background for the body */
+}
+
+.content {
+    margin: 20px auto; /* Add some margin at the top and bottom */
+    font-family: 'Courier New', Courier, monospace;
+    text-align: center;
+    width: 80%; /* Set width to 80% to avoid removing it */
+    padding: 20px; /* Add padding for spacing */
+    border: 1px solid #ddd; /* Add border */
+    background-color: #ffffff; /* White background for content */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Add shadow for depth */
+    transition: box-shadow 0.3s ease; /* Add transition for shadow */
+}
+
+.content:hover {
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.2); /* Increase shadow on hover */
+}
+
+table {
+    width: 100%; /* Adjust the width as needed */
+    margin: 0 auto; /* Center the table horizontally */
+    border-collapse: collapse; /* Collapse table borders */
+    background-color: #f9f9f9; /* Light background for the table */
+}
+
+th, td {
+    padding: 12px; /* Add padding to cells */
+    border: 1px solid #ddd; /* Add border to cells */
+    text-align: left; /* Align text to the left */
+    transition: background-color 0.3s ease; /* Add transition for background */
+}
+
+th {
+    background-color: #4CAF50; /* Green background for table headers */
+    color: #ffffff; /* White text color for table headers */
+}
+
+td:hover {
+    background-color: #f1f1f1; /* Light gray background on hover */
+}
+
+form {
+    margin-top: 20px; /* Add some space between the table and the form */
+}
+
+input[type="text"], input[type="submit"] {
+    padding: 12px; /* Add padding to input elements */
+    margin: 10px 5px; /* Add margin to input elements */
+    border: 1px solid #ddd; /* Add border to input elements */
+    border-radius: 4px; /* Rounded corners for input elements */
+    transition: background-color 0.3s ease, border-color 0.3s ease; /* Add transition */
+}
+
+input[type="text"] {
+    width: 60%; /* Set width of text input */
+}
+
+input[type="submit"] {
+    background-color: #4CAF50; /* Green background for submit button */
+    color: #ffffff; /* White text color for submit button */
+    cursor: pointer; /* Change cursor to pointer on hover */
+}
+
+input[type="text"]:focus, input[type="submit"]:focus {
+    outline: none; /* Remove focus outline */
+    border-color: #4CAF50; /* Change border color on focus */
+}
+
+input[type="submit"]:hover {
+    background-color: #45a049; /* Darker green on hover */
+}
